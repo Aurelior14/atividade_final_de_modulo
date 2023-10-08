@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #4a71c4e0; /* Cor da barra lateral */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    padding-bottom: 275px;
+    padding-top: 400px;
+
+}
+
+.sidebar img {
+    border-radius: 50%;
+    width: 150px; /* Tamanho da foto de perfil */
+    margin-bottom: 20px;
+    border: solid rgb(24, 74, 168);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    padding-top: 400px;
+}
+
+.redes {
+    margin-top: 20px;
+}
+
+.redes a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
